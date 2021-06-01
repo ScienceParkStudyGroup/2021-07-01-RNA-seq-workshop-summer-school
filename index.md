@@ -22,8 +22,9 @@ eventbrite: "157456636037"          # optional: alphanumeric key for Eventbrite 
 <sub>1: member of the SILS institute, 2: member of the IBED institute
 <br>
 <br>
-<h1 id="general"><center>Introduction to RNA-seq.</center><br></h1>
 {% comment %}
+<h1 id="general"><center>Introduction to RNA-seq.</center><br></h1>
+
 HEADER
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
