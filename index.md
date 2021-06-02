@@ -1,3 +1,4 @@
+<link rel="stylesheet" ;href="index.css">
 ---
 layout: workshop                # DON'T CHANGE THIS.
 title: "Introduction to RNA-seq"
