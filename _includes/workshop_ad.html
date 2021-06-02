@@ -21,13 +21,21 @@
   
   .button1 {
     background-color: transparent; 
-    color: black; 
+    color: black;
     border: 8px solid #0975ab;
   }
   
   .button1:hover {
     background-color: #0975ab;
     color: white;
+  }
+
+  .button1:after {
+    content: "Sign-up";
+  }
+  
+  .button1:hover:after {
+    content: "Click me";
   }
 </style>
 
@@ -63,7 +71,7 @@
           <br>
           <br>
           <p>
-            <button class="button button1"; onclick="window.location.href = 'https://www.eventbrite.fr/e/introduction-to-rna-seq-workshop-tickets-157456636037';"><strong>Sign-up</strong></button>
+            <strong><button class="button button1"; onclick="window.location.href = 'https://www.eventbrite.fr/e/introduction-to-rna-seq-workshop-tickets-157456636037';"></button></strong>
           <br>
           <br>
           </p>
