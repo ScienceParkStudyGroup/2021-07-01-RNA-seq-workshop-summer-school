@@ -1,6 +1,35 @@
 {% comment %}
   Advertising box at the top of a workshop website home page.
 {% endcomment %}
+
+<style>
+  .button {
+    border:  black;
+    color: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 120px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position:absolute;
+    right:0;
+  }
+  
+  .button1 {
+    background-color: transparent; 
+    color: black; 
+    border: 8px solid #0975ab;
+  }
+  
+  .button1:hover {
+    background-color: #0975ab;
+    color: white;
+  }
+</style>
+
 <div class="jumbotron" style="background-image: url(./fig/HeaderPict3.jpg); background-size: cover">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
@@ -33,7 +62,7 @@
           <br>
           <br>
           <p>
-          <button style="background-color:#468fe3; border-color:#6eadf5; width:300px; height:100px; position:absolute; right:0"; onclick="window.location.href = 'https://www.eventbrite.fr/e/introduction-to-rna-seq-workshop-tickets-157456636037';"><strong>&nbsp;&nbsp;&nbsp;Sign-up&nbsp;&nbsp;&nbsp</strong></button>
+            <button class="button button1"; onclick="window.location.href = 'https://www.eventbrite.fr/e/introduction-to-rna-seq-workshop-tickets-157456636037';"><strong>Sign-up</strong></button>
           <br>
           <br>
           </p>
