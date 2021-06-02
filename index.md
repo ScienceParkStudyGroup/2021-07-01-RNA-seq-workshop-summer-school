@@ -20,7 +20,7 @@ eventbrite: "157456636037"          # optional: alphanumeric key for Eventbrite 
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
-<sub>1: member of the SILS institute, 2: member of the IBED institute
+<sub>1: member of the SILS institute {% comment %} , 2: member of the IBED institute{% endcomment %}
 <br>
 <br>
 {% comment %}
@@ -47,7 +47,7 @@ This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
+
 {% if page.eventbrite %}
 <iframe
   src="https://www.eventbrite.fr/e/introduction-to-rna-seq-workshop-tickets-157456636037"
@@ -57,7 +57,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
+{% endcomment %}
 
 <h2 id="general">General Information</h2>
 
