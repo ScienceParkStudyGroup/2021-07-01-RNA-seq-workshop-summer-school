@@ -1,5 +1,6 @@
 ---
 layout: workshop                # DON'T CHANGE THIS.
+title: "Introduction to RNA-seq"
 carpentry: "dc"
 venue: "UvA Amsterdam"            # brief name of host site without address (e.g., "Euphoric State University")
 address: "Online, Amsterdam UTC+1 (see Zoom links)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
