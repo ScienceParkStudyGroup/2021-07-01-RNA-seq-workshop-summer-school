@@ -167,10 +167,10 @@ special instructions.
   <strong>Helpers:</strong> Experts helping in the room.:
 </p>
 <ul>
-  <li>Thursday july 1 from 9:30 to 13:00: Tijs</li>
-  <li>Thursday july 1 from 14:00 to 17:00: Marc</li>
-  <li>Friday july 2 from 9:30 to 13:00: Tijs</li>
-  <li>Friday july 2 from 14:00 to 17:00: Marc</li>
+  <li>Thursday July 1 from 9:30 to 13:00: Tijs</li>
+  <li>Thursday July 1 from 14:00 to 17:00: Marc</li>
+  <li>Friday July 2 from 9:30 to 13:00: Tijs</li>
+  <li>Friday July 2 from 14:00 to 17:00: Marc</li>
 <br>
 </ul>
 
@@ -196,6 +196,7 @@ special instructions.
 <iframe src="https://discord.com/widget?id=808365000833237022&theme=dark" width="700" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 {% endcomment %}
 </p>
+
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -226,6 +227,12 @@ Display the contact email address set in the configuration file.
   <strong>Link to the lesson materials</strong>:  
 <a href="https://scienceparkstudygroup.github.io/rna-seq-lesson/">Introduction to RNA-seq</a> 
 </p>
+
+
+
+
+<br>
+
 
 
 {% comment %}
@@ -342,6 +349,32 @@ please preview your site before committing, and make sure to run
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+<p> 
+  <h3> Virtual Machines</h3>
+  <h4>Shell Virtual Machines (day 1)</h4> 
+  
+  Virtual machines will be used through the course. A virtual machine is a sort of mini-computer running in the cloud (someone else computer). This will ensure that we all dispose of the same compute power and software.<br>
+  Machines on day 1 will be used on the first day to perform the bioinformatic parts of RNA-seq (read trimming, alignment to a genome etc.).<br>
+
+  Your credentials to connect to the machine will be sent to you separately through email (a .csv file).
+  <br>
+<strong>Steps to complete</strong>
+
+  <ol>
+    <li>Open your Shell,</li>
+    <li>Type <code>shh root@[your IP address]</code> (see your machine IP address in the credential files),  </li>
+    <li>You will be asked to confirm the authenticity of the host. Answer "yes",  </li>
+    <li>You will be then asked to type in your password. This is the one given to you in the credential .csv file,</li>
+    <li>You are then asked to choose a password. Choose something simple but long enough (e.g. your first name followed by your birth date), Security is not so much an issue here since all VMs are destroyed after the course,</li>
+    <li>Re-type the same password. </li>
+    <li>Type: <code>docker run -it --name bioinfo -v $PWD:/home/ scienceparkstudygroup/master-gls:fastq-latest</code> to create a container called <code>bioinfo</code> and enter it through an interactive bash. You can refer to the <a href="https://scienceparkstudygroup.github.io/rna-seq-lesson/setup.html">setup of the lesson</a> for additional commands.</li>
+  </ol>
+
+
+  <h4>R/RStudio Virtual machines (day 2)</h4> 
+  On day 2, we will use RStudio virtual machines accessible through a simple web browser. Simply browse to the web link provided to you in the credential file. Enter <code>rstudio</code> as the username and your provided password to access your RStudio machine.  
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
@@ -512,6 +545,7 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'Git' section. {% endcomment %}
 {% endcomment %}
 <br>
+
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
 
