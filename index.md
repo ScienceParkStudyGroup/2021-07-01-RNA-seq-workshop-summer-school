@@ -372,6 +372,8 @@ please preview your site before committing, and make sure to run
     <li>Type: <code>docker run -it --name bioinfo -v $PWD:/home/ scienceparkstudygroup/master-gls:fastq-latest</code> to create a container called <code>bioinfo</code> and enter it through an interactive bash. You can refer to the <a href="https://scienceparkstudygroup.github.io/rna-seq-lesson/setup.html">setup of the lesson</a> for additional commands.</li>
   </ol>
 
+  <img src="assets/img/vm_setup.png" alt="Virtual machine setup" width="600px">
+
 
   <h4>R/RStudio Virtual machines (day 2)</h4> 
   On day 2, we will use RStudio virtual machines accessible through a simple web browser. Simply browse to the web link provided to you in the credential file. Enter <code>rstudio</code> as the username and your provided password to access your RStudio machine.  
