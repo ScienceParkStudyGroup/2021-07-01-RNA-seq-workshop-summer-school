@@ -12,7 +12,7 @@ humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2021-06-21             # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-22               # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Marc Galland<sup>1</sup>", "Tijs Bliek<sup>1</sup>"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper:   # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper:   ["Fred White"] # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["m.bliek@uva.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: "157456636037"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -176,7 +176,7 @@ special instructions.
 
 <p id="discord">
   <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.   
-  Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/C4cUZ95fbQ"><strong>link</strong></a>  
+  Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/XedJhdUv"><strong>link</strong></a>  
 
   There are several channels that we will use:  
   <ul>
