@@ -118,8 +118,8 @@ address.
   <strong>Zoom links:</strong> the workshop will be fully online:
 </p>
 <ul>
-  <li>Thursday July 1 2021 from 9:30 to 17:00:  <a href="https://uva-live.zoom.us/j/82525715053">Zoom link day 1</a></li>
-  <li>Friday July 2 2021 from 9:30 to 17:00: <a href="https://uva-live.zoom.us/j/87894258545">Zoom link day 2</a></li>
+  <li>Thursday July 1 2021 from 9:30 to 17:00:  <a href="https://uva-live.zoom.us/j/88364732369">Zoom link day 1</a></li>
+  <li>Friday July 2 2021 from 9:30 to 17:00: <a href="https://uva-live.zoom.us/j/83342003289">Zoom link day 2</a></li>
 <br>
 </ul>
 
@@ -168,9 +168,9 @@ special instructions.
 </p>
 <ul>
   <li>Thursday July 1 from 9:30 to 13:00: Tijs</li>
-  <li>Thursday July 1 from 14:00 to 17:00: Marc</li>
-  <li>Friday July 2 from 9:30 to 13:00: Tijs</li>
-  <li>Friday July 2 from 14:00 to 17:00: Marc</li>
+  <li>Thursday July 1 from 14:00 to 17:00: Fred & Marc</li>
+  <li>Friday July 2 from 9:30 to 13:00: Fred & Tijs</li>
+  <li>Friday July 2 from 14:00 to 17:00: Fred</li>
 <br>
 </ul>
 
